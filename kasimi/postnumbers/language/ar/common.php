@@ -6,6 +6,7 @@
  * @copyright (c) 2016 kasimi - https://kasimi.net
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  *
+ * Translated By : Bassel Taha Alhitary - www.alhitary.net
  */
 
 if (!defined('IN_PHPBB'))
@@ -19,7 +20,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'POSTNUMBERS_TITLE'						=> 'Post Numbers',
-	'POSTNUMBERS_CONFIG'					=> 'Configuration',
-	'POSTNUMBERS_CONFIG_UPDATED'			=> '<strong>Post Numbers </strong>Extension<br />» Configuration updated',
+	'POSTNUMBERS_COPY_TITLE'		=> 'نسخ رابط المُشاركة إلى الحافظة',
+	'POSTNUMBERS_COPY_MANUALLY'		=> 'النسخ إلى الحافظة : Ctrl/Cmd+C, Enter',
+	'POSTNUMBERS_COPIED'			=> 'تم النسخ !',
 ));

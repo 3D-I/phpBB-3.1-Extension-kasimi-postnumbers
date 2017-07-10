@@ -7,7 +7,7 @@
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  *
  */
-
+ 
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -19,7 +19,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'POSTNUMBERS_TITLE'						=> 'Post Numbers',
-	'POSTNUMBERS_CONFIG'					=> 'Configuration',
-	'POSTNUMBERS_CONFIG_UPDATED'			=> '<strong>Post Numbers </strong>Extension<br />» Configuration updated',
+	'POSTNUMBERS_TITLE'						=> 'Numeração das Mensagens',
+	'POSTNUMBERS_CONFIG'					=> 'Configuração',
+	'POSTNUMBERS_CONFIG_UPDATED'			=> 'Extensão <strong>Numeração das Mensagens</strong> <br />» Configuração guardada',
 ));

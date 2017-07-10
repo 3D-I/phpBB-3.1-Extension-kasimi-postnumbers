@@ -19,7 +19,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'POSTNUMBERS_TITLE'						=> 'Post Numbers',
-	'POSTNUMBERS_CONFIG'					=> 'Configuration',
-	'POSTNUMBERS_CONFIG_UPDATED'			=> '<strong>Post Numbers </strong>Extension<br />» Configuration updated',
+	'POSTNUMBERS_TITLE'						=> 'Numeração de Mensagens',
+	'POSTNUMBERS_CONFIG'					=> 'Configuração',
+	'POSTNUMBERS_CONFIG_UPDATED'			=> 'Extensão <strong>Numeração de Mensagens </strong><br />» Configuração salva',
 ));

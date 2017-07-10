@@ -19,7 +19,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'POSTNUMBERS_TITLE'						=> 'Post Numbers',
-	'POSTNUMBERS_CONFIG'					=> 'Configuration',
-	'POSTNUMBERS_CONFIG_UPDATED'			=> '<strong>Post Numbers </strong>Extension<br />» Configuration updated',
+	'POSTNUMBERS_COPY_TITLE'		=> 'Copiar el enlace del mensaje al área de transferencia',
+	'POSTNUMBERS_COPY_MANUALLY'		=> 'Copiar al área de transferencia: Ctrl/Cmd+C, Enter',
+	'POSTNUMBERS_COPIED'			=> '!Copiado!',
 ));
